@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
-    <title>Havishisbuns</title>
-    <head>
-      <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
-      
-    </head>
-    <body>
-       <nav class="navbar navbar-inverse">
+<html lang="en">
+
+<head>
+    <title>Bio</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon"
+          type="image/x-icon"
+          href="https://codehs.com/uploads/cc4407a1bd04d35ab8974ec3329db7bd">
+</head>
+
+<body>
+
+    <nav class="myNav navbar navbar-inverse navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -19,7 +29,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>                        
               </button>
-              <a class="navbar-brand" href="index.html">Home</a>
+              <a class="navbar-brand" href="index.html">
+                <span class="glyphicon glyphicon-home"></span>
+            </a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
               <ul class="nav navbar-nav">
@@ -27,21 +39,166 @@
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">Project<span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Project 1</a></li>
-                    <li><a href="#">Project 2</a></li>
-                    <li><a href="#">Project 2</a></li>
+                    <li><a href="Project.html">Project 1</a></li>
+                    <li><a href="Project.html">Project 2</a></li>
+                    <li><a href="Project.html">Project 3</a></li>
+                    <li><a href="Project.html">Project 4</a></li>
+                    <li><a href="Project.html">Project 5</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Page 2</a></li>
-                <li><a href="#">Page 3</a></li>
               </ul>
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li class="login"><a href="login.html">Games</a></li>
               </ul>
             </div>
           </div>
         </nav>
-    </body>
-    <h1>This is my bio!</h1>
-</html>
+
+
+    <!-- PROFILE -->
+    <div class="profile-container">
+
+        <div class="profile-header">
+
+            <div class="avatar-badge">
+                G
+            </div>
+
+            <h1>Student Athlete</h1>
+
+            <p class="subtitle">
+                Granada Basketball
+            </p>
+
+        </div>
+
+
+        <p class="bio-body">
+            Hey, I’m Sachitt! I’m a high school student attending Granada High school who enjoys playing video games, riding e-bikes, playing basketball, and learning about technology. I’m always looking for ways to improve myself and try new things. In the future, I hope to become a dermatologist and build a career that combines my interests with helping people.
+        </p>
+
+
+        <!-- IMAGES -->
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div class="col-xs-4">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrMM0MPsXcQj2Fhf66Mq7C54DDAmoXaul7OHt55TFjxg&s=10"
+                        width="300"
+                        class="img-responsive"
+                        alt="Basketball image">
+                </div>
+
+                <div class="col-xs-4">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRliZheP1xj0UHttyJjcuuGYILaWOUARwvs0-OWo1B8dg&s=10"
+                        width="300"
+                        class="img-responsive"
+                        alt="Basketball image">
+                </div>
+
+                <div class="col-xs-4">
+                    <img
+                        src="https://freegobikes.com/cdn/shop/files/freego-x2pro-dirt-ebike-transparent.png?v=1764301240"
+                        width="300"
+                        class="img-responsive"
+                        alt="E-bike">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- WEBSITES -->
+        <div class="row">
+
+            <div class="section-title">
+                Websites I like!
+            </div>
+
+            <div class="links-stack">
+
+                <a href="https://nba.com"
+                   target="_blank"
+                   class="network-link">
+
+                    <span>NBA Official Hub (Basketball)</span>
+                    <span class="arrow-indicator">↗</span>
+
+                </a>
+
+                <a href="https://ign.com"
+                   target="_blank"
+                   class="network-link">
+
+                    <span>IGN Gaming Network (Video Games)</span>
+                    <span class="arrow-indicator">↗</span>
+
+                </a>
+
+                <a href="https://bikeradar.com"
+                   target="_blank"
+                   class="network-link">
+
+                    <span>BikeRadar Electric Hub (E-Bikes)</span>
+                    <span class="arrow-indicator">↗</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bio-background"></div>
+    
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-col">
+            </div>
+
+            <div class="footer-col">
+
+                <h3>About</h3>
+
+                <ul>
+                    <li>
+                        <a href="https://granadahigh.livermoreschools.org/">
+                            My School
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Connect</h3>
+
+                <ul class="social-links">
+
+                    <li>
+                        <a href="https://mail.google.com/mail/u/0/#inbox"
+                           target="_blank">
+                            Contact Me
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2026 Created by Sachitt Baskar.
+                All rights reserved.

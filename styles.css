@@ -715,3 +715,13 @@ h1 {
 .cir-check__label {
   line-height: 1.2;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Removes default browser spacing */
+}
+
+.site-footer {
+    margin-top: auto; /* Automatically pushes the footer to the very bottom */
+}

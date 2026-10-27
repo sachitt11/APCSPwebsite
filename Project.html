@@ -1,29 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <head>
-      <title>My Projects</title>
+    <title>My Projects</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>   
-      
-     <link rel="stylesheet" href="styles.css">
-     <link rel="icon" type="image/x-icon" href="https://codehs.com/uploads/cc4407a1bd04d35ab8974ec3329db7bd">
-    </head>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" type="image/x-icon"
+          href="https://codehs.com/uploads/cc4407a1bd04d35ab8974ec3329db7bd">
 
     <style>
         html {
             scroll-behavior: smooth;
+            scroll-padding-top: 70px;
+        }
+
+        .coming-soon-canvas-frame iframe {
+            display: block;
+            width: 100%;
+            height: 500px;
+            border: none;
         }
     </style>
 </head>
 
 <body>
 
-   
     <nav class="myNav navbar navbar-inverse navbar-fixed-top">
 
         <div class="container-fluid">
@@ -42,8 +49,8 @@
                 </button>
 
                 <a class="navbar-brand" href="index.html">
-                <span class="glyphicon glyphicon-home"></span>
-            </a>
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
 
             </div>
 
@@ -66,35 +73,11 @@
 
                         <ul class="dropdown-menu">
 
-                            <li>
-                                <a href="#project-section-1">
-                                    Project 1
-                                </a>
-                            </li>
-                            <iframe src="https://pytogether.org/embed/eyJwaWQiOjI1MTI2LCJ0eXBlIjoic25pcHBldCJ9:1xLNmf:T3FbhgHMZoMHBbXqDGfxLBeLjaFP75RxDbJ9cwiIGGw" width="100%" height="500px" frameborder="0"></iframe>
-                            <li>
-                                <a href="#project-section-2">
-                                    Project 2
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#project-section-3">
-                                    Project 3
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#project-section-4">
-                                    Project 4
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#project-section-5">
-                                    Project 5
-                                </a>
-                            </li>
+                            <li><a href="#project-section-1">Project 1</a></li>
+                            <li><a href="#project-section-2">Project 2</a></li>
+                            <li><a href="#project-section-3">Project 3</a></li>
+                            <li><a href="#project-section-4">Project 4</a></li>
+                            <li><a href="#project-section-5">Project 5</a></li>
 
                         </ul>
 
@@ -106,8 +89,6 @@
                     <li>
                         <a href="login.html">Games</a>
                     </li>
-                    
-    </a>
                 </ul>
 
             </div>
@@ -116,8 +97,6 @@
 
     </nav>
 
-
-    
 
     <div class="parallax text-center">
 
@@ -128,13 +107,9 @@
     </div>
 
 
-    
-
     <main class="projects-display-container">
 
-
-       
-
+        <!-- PROJECT 1: PYTOGETHER EMBED -->
         <section id="project-section-1"
                  class="individual-project-card">
 
@@ -146,15 +121,13 @@
 
                 <div class="coming-soon-canvas-frame">
 
-                    <img class="project-display-photo"
-                         src="https://picsum.photos/800/400"
-                         alt="Project 1">
-
-                    <div class="dark-overlay-shade-filter"></div>
-
-                    <div class="center-stage-text-block">
-                        COMING SOON
-                    </div>
+                    <iframe
+                        src="https://pytogether.org/embed/eyJwaWQiOjI1MTI2LCJ0eXBlIjoic25pcHBldCJ9:1xLWJP:D08esHXxV9dZy5y2xW5C4NX_Gqr9QANCj8sfFNHlIg4"
+                        width="100%"
+                        height="500"
+                        frameborder="0"
+                        title="My PyTogether Project">
+                    </iframe>
 
                 </div>
 
@@ -163,16 +136,13 @@
         </section>
 
 
-        
-
+        <!-- PROJECT 2 -->
         <section id="project-section-2"
                  class="individual-project-card">
 
             <div class="container">
 
-                <h1 class="project-heading-label">
-                    Project 2
-                </h1>
+                <h1 class="project-heading-label">Project 2</h1>
 
                 <div class="coming-soon-canvas-frame">
 
@@ -193,16 +163,13 @@
         </section>
 
 
-        
-
+        <!-- PROJECT 3 -->
         <section id="project-section-3"
                  class="individual-project-card">
 
             <div class="container">
 
-                <h1 class="project-heading-label">
-                    Project 3
-                </h1>
+                <h1 class="project-heading-label">Project 3</h1>
 
                 <div class="coming-soon-canvas-frame">
 
@@ -223,16 +190,13 @@
         </section>
 
 
-       
-
+        <!-- PROJECT 4 -->
         <section id="project-section-4"
                  class="individual-project-card">
 
             <div class="container">
 
-                <h1 class="project-heading-label">
-                    Project 4
-                </h1>
+                <h1 class="project-heading-label">Project 4</h1>
 
                 <div class="coming-soon-canvas-frame">
 
@@ -253,16 +217,13 @@
         </section>
 
 
-       
-
+        <!-- PROJECT 5 -->
         <section id="project-section-5"
                  class="individual-project-card">
 
             <div class="container">
 
-                <h1 class="project-heading-label">
-                    Project 5
-                </h1>
+                <h1 class="project-heading-label">Project 5</h1>
 
                 <div class="coming-soon-canvas-frame">
 
@@ -282,12 +243,10 @@
 
         </section>
 
-
     </main>
 
 
-    
-
+    <!-- FOOTER -->
     <footer class="site-footer">
 
         <div class="footer-container">
@@ -300,38 +259,32 @@
                 <h3>About</h3>
 
                 <ul>
-
                     <li>
                         <a href="https://livermoreschools.org"
-                           target="_blank">
+                           target="_blank"
+                           rel="noopener noreferrer">
                             My School
                         </a>
                     </li>
-
                 </ul>
 
             </div>
-
 
             <div class="footer-col">
 
                 <h3>Connect</h3>
 
                 <ul class="social-links">
-
                     <li>
-                        <a href="mailto:sachitt.bas@lvjusd.org.com"
-                           target="_blank">
+                        <a href="mailto:sachitt.bas@lvjusd.org">
                             Contact Me
                         </a>
                     </li>
-
                 </ul>
 
             </div>
 
         </div>
-
 
         <div class="footer-bottom">
 
@@ -343,9 +296,10 @@
         </div>
 
     </footer>
-    <li><a href="bio.html">Bio</a></li>
 
-    <a class="navbar-brand" href="index.html">Home</a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
